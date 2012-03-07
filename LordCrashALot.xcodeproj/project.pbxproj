@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1DADCCA1507B72A00435EEC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1DADCC91507B72A00435EEC /* Localizable.strings */; };
+		C1F0C24015011AB5007A8008 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F0C23F15011AB5007A8008 /* Cocoa.framework */; };
+		C1F0C24A15011AB5007A8008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1F0C24815011AB5007A8008 /* InfoPlist.strings */; };
+		C1F0C24C15011AB5007A8008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0C24B15011AB5007A8008 /* main.m */; };
+		C1F0C25015011AB5007A8008 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C1F0C24E15011AB5007A8008 /* Credits.rtf */; };
+		C1F0C25315011AB5007A8008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0C25215011AB5007A8008 /* AppDelegate.m */; };
+		C1F0C26215012492007A8008 /* CrashCountReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0C26115012492007A8008 /* CrashCountReader.m */; };
+		C1F0C266150229B3007A8008 /* WatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0C265150229B3007A8008 /* WatchDog.m */; };
+		C1F0C270150279B6007A8008 /* CrashReportRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0C26F150279B6007A8008 /* CrashReportRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1DADCC7150681C900435EEC /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		C1DADCC91507B72A00435EEC /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C1F0C23B15011AB5007A8008 /* LordCrashALot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LordCrashALot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0C23F15011AB5007A8008 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1F0C24215011AB5007A8008 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C1F0C24315011AB5007A8008 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1F0C24415011AB5007A8008 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1F0C24715011AB5007A8008 /* LordCrashALot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LordCrashALot-Info.plist"; sourceTree = "<group>"; };
+		C1F0C24915011AB5007A8008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1F0C24B15011AB5007A8008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1F0C24D15011AB5007A8008 /* LordCrashALot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LordCrashALot-Prefix.pch"; sourceTree = "<group>"; };
+		C1F0C24F15011AB5007A8008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C1F0C25115011AB5007A8008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1F0C25215011AB5007A8008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1F0C26015012492007A8008 /* CrashCountReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashCountReader.h; sourceTree = "<group>"; };
+		C1F0C26115012492007A8008 /* CrashCountReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashCountReader.m; sourceTree = "<group>"; };
+		C1F0C264150229B3007A8008 /* WatchDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchDog.h; sourceTree = "<group>"; };
+		C1F0C265150229B3007A8008 /* WatchDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchDog.m; sourceTree = "<group>"; };
+		C1F0C26E150279B6007A8008 /* CrashReportRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReportRequest.h; sourceTree = "<group>"; };
+		C1F0C26F150279B6007A8008 /* CrashReportRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashReportRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F0C23815011AB5007A8008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0C24015011AB5007A8008 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1F0C23015011AB4007A8008 = {
+			isa = PBXGroup;
+			children = (
+				C1F0C24515011AB5007A8008 /* LordCrashALot */,
+				C1F0C23E15011AB5007A8008 /* Frameworks */,
+				C1F0C23C15011AB5007A8008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F0C23C15011AB5007A8008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C23B15011AB5007A8008 /* LordCrashALot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F0C23E15011AB5007A8008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C23F15011AB5007A8008 /* Cocoa.framework */,
+				C1F0C24115011AB5007A8008 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F0C24115011AB5007A8008 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C24215011AB5007A8008 /* AppKit.framework */,
+				C1F0C24315011AB5007A8008 /* CoreData.framework */,
+				C1F0C24415011AB5007A8008 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C1F0C24515011AB5007A8008 /* LordCrashALot */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C27115027C8D007A8008 /* Classes */,
+				C1F0C25115011AB5007A8008 /* AppDelegate.h */,
+				C1F0C25215011AB5007A8008 /* AppDelegate.m */,
+				C1F0C24615011AB5007A8008 /* Supporting Files */,
+			);
+			path = LordCrashALot;
+			sourceTree = "<group>";
+		};
+		C1F0C24615011AB5007A8008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C24715011AB5007A8008 /* LordCrashALot-Info.plist */,
+				C1F0C24815011AB5007A8008 /* InfoPlist.strings */,
+				C1F0C24B15011AB5007A8008 /* main.m */,
+				C1F0C24D15011AB5007A8008 /* LordCrashALot-Prefix.pch */,
+				C1F0C24E15011AB5007A8008 /* Credits.rtf */,
+				C1DADCC91507B72A00435EEC /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1F0C27115027C8D007A8008 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0C264150229B3007A8008 /* WatchDog.h */,
+				C1F0C265150229B3007A8008 /* WatchDog.m */,
+				C1F0C26015012492007A8008 /* CrashCountReader.h */,
+				C1F0C26115012492007A8008 /* CrashCountReader.m */,
+				C1F0C26E150279B6007A8008 /* CrashReportRequest.h */,
+				C1F0C26F150279B6007A8008 /* CrashReportRequest.m */,
+				C1DADCC7150681C900435EEC /* Globals.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F0C23A15011AB5007A8008 /* LordCrashALot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0C25915011AB5007A8008 /* Build configuration list for PBXNativeTarget "LordCrashALot" */;
+			buildPhases = (
+				C1F0C23715011AB5007A8008 /* Sources */,
+				C1F0C23815011AB5007A8008 /* Frameworks */,
+				C1F0C23915011AB5007A8008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LordCrashALot;
+			productName = LordCrashALot;
+			productReference = C1F0C23B15011AB5007A8008 /* LordCrashALot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F0C23215011AB4007A8008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Aurora Apps";
+			};
+			buildConfigurationList = C1F0C23515011AB4007A8008 /* Build configuration list for PBXProject "LordCrashALot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1F0C23015011AB4007A8008;
+			productRefGroup = C1F0C23C15011AB5007A8008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F0C23A15011AB5007A8008 /* LordCrashALot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F0C23915011AB5007A8008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0C24A15011AB5007A8008 /* InfoPlist.strings in Resources */,
+				C1F0C25015011AB5007A8008 /* Credits.rtf in Resources */,
+				C1DADCCA1507B72A00435EEC /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F0C23715011AB5007A8008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0C24C15011AB5007A8008 /* main.m in Sources */,
+				C1F0C25315011AB5007A8008 /* AppDelegate.m in Sources */,
+				C1F0C26215012492007A8008 /* CrashCountReader.m in Sources */,
+				C1F0C266150229B3007A8008 /* WatchDog.m in Sources */,
+				C1F0C270150279B6007A8008 /* CrashReportRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F0C24815011AB5007A8008 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0C24915011AB5007A8008 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1F0C24E15011AB5007A8008 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0C24F15011AB5007A8008 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F0C25715011AB5007A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1F0C25815011AB5007A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1F0C25A15011AB5007A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LordCrashALot/LordCrashALot-Prefix.pch";
+				INFOPLIST_FILE = "LordCrashALot/LordCrashALot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1F0C25B15011AB5007A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LordCrashALot/LordCrashALot-Prefix.pch";
+				INFOPLIST_FILE = "LordCrashALot/LordCrashALot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F0C23515011AB4007A8008 /* Build configuration list for PBXProject "LordCrashALot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0C25715011AB5007A8008 /* Debug */,
+				C1F0C25815011AB5007A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F0C25915011AB5007A8008 /* Build configuration list for PBXNativeTarget "LordCrashALot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0C25A15011AB5007A8008 /* Debug */,
+				C1F0C25B15011AB5007A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F0C23215011AB4007A8008 /* Project object */;
+}

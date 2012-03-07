@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  LordCrashALot
+
+  Created by Georg Kitz on 3/7/12.
+  Copyright (c) 2012 Aurora Apps. All rights reserved.
+*/
+
+"lastSync" = "Last crash: ";
+"notSyncedYet" = "Not synced yet";
+"id" = "User ID";
+"quit" = "Quit";
+"openLord" = "Open Ranking";
