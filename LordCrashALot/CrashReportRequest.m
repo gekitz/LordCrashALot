@@ -48,7 +48,7 @@
 
     self.completion = completion; 
 
-    NSURL *postCrashesURL = [[NSURL alloc] initWithString:@"http://lord-crash-a-lot.jantschnig.com/report.php"];
+    NSURL *postCrashesURL = [[NSURL alloc] initWithString:@"http://www.lord-crash-a-lot.com/report.php"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:postCrashesURL cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:60.];
  
     NSError *error = nil;

@@ -32,7 +32,7 @@
 #pragma mark Private Methods 
 
 - (void)openLoardCrashALot{
-    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://lord-crash-a-lot.jantschnig.com"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.lord-crash-a-lot.com"]];
 }
 
 - (void)updateStatusItems{

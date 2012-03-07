@@ -2,7 +2,7 @@
 
 "Lord Crash A Lot" is an App which tracks your Xcode crashes and sends the number of crashes + a unique identifier to a server.
 
-We store the number of crashes and your identifier to build a ranking system. You can access the top 5 "Crash Lords" by visiting the following URL [Lord-Crash-A-Lot](http://lord-crash-a-lot.jantschnig.com/).
+We store the number of crashes and your identifier to build a ranking system. You can access the top 5 "Crash Lords" by visiting the following URL [Lord-Crash-A-Lot](http://www.lord-crash-a-lot.com/).
 
 You can change the unique identifier to what ever you want. Just open the AppDelegate and change the code in the ``- (void)setupUniqueIdentifier;``. Per default we generate one for you.
 
