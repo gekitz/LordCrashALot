@@ -54,6 +54,11 @@
 
 - (NSString *)retrieveXcodeVersionOfCrashFileAtPath:(NSString *)filePath{
     NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    if ([data length] == 0) {
+        return nil;
+    }
+    
     NSString *fileAsString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     
     NSRange range = [fileAsString rangeOfString:@"Version:"];
@@ -98,6 +103,11 @@
         }
         
         NSString *version = [self retrieveXcodeVersionOfCrashFileAtPath:filePath];
+        
+        if (version == nil) {
+            continue;
+        }
+        
         NSNumber *count = [countDictionary objectForKey:version];
         if(!count){
             count = [NSNumber numberWithInt:1];
